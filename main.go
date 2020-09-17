@@ -16,5 +16,5 @@ import (
 func main() {
 	fmt.Println("f(x)= x^3+sen(x)")
 	//biseccion.Raiz(-2, 2)
-	puntoFijo.Iterar(-2, 1)
+	puntoFijo.Iterar(-3, 0)
 }
