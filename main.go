@@ -6,15 +6,16 @@ Ing en sistemas computacionales.
 Metodos numericos
 */
 
-//import importa los paquetes que se requieren para la ejecucion del programa
 import (
-	"fmt"
-	"github.com/Ignis-Divine/Metodos-Numericos/puntoFijo"
+	"github.com/Ignis-Divine/Metodos-Numericos/newton"
 )
 
 //metodo main llama a las funciones principales
 func main() {
-	fmt.Println("f(x)= x^3+sen(x)")
+	//fmt.Println("f(x)= x^3+sen(x)")
 	//biseccion.Raiz(-2, 2)
-	puntoFijo.Iterar(-3, 0)
+	//puntoFijo.Iterar(-3, 0)
+	newton.ValidarConvergencia()
+	newton.Iterar()
+
 }
