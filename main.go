@@ -6,7 +6,7 @@ Ing en sistemas computacionales.
 Metodos numericos
 */
 
-import "github.com/Ignis-Divine/Metodos-Numericos/posicionFalsa"
+import "github.com/Ignis-Divine/Metodos-Numericos/gaussiana"
 
 //metodo main llama a las funciones principales
 func main() {
@@ -15,5 +15,6 @@ func main() {
 	//puntoFijo.Iterar(-3, 0)
 	//newton.ValidarConvergencia()
 	//newton.Iterar()
-	posicionFalsa.Iterar()
+	//posicionFalsa.Iterar()
+	gaussiana.Unir()
 }
